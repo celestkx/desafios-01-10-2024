@@ -7,9 +7,31 @@
 
 */
 
-let contador = 5;
+// let contador = 5;
 
-while ( contador >= 1) {
-    console.log (contador)
-    contador --;
+// while ( contador >= 1) {
+//     console.log (contador)
+//     contador --;
+// }
+
+// do 
+
+//2. Do While
+// Iremos inicializar a variável contador com o valor 5 
+
+let contador = 5 
+do{
+    //imprimir o valor no contador
+    console.log (contador);
+    //definimos o valor de contagem "--" pois será uma contagem decrescente 
+    contador--;
+} while (contador >=1)
+
+
+/* 3 - Apenas com For */
+for (let contador = 5; 
+    contador >=1; 
+    contador --){
+    console.log(contador);
 }
+    
